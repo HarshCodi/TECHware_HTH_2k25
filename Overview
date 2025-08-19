@@ -1,0 +1,47 @@
+# Low-Cost Crop Disease Detector
+
+## Project Overview
+Ye project aim karta hai ki farmers ko unke crops ki bimariyon se bachaya ja sake using smartphone images aur IoT sensors. AI model plant leaf images se disease detect karta hai aur sensor data crop health ko monitor karta hai.
+
+## Roadmap
+
+### 1. Problem Definition
+- Crop diseases ka early detection for better yield.
+
+### 2. Components
+- Smartphone for image capture.
+- ESP32 with Temperature, Humidity, Soil moisture sensors.
+- AI model for plant disease detection.
+- Streamlit dashboard for data visualization.
+
+### 3. Implementation Steps
+- Data collection (healthy + diseased leaves images).
+- AI model training using TensorFlow/Keras.
+- Backend API setup for image and sensor data.
+- Streamlit app development for dashboard and alerts.
+- Testing and validation.
+
+### 4. Future Improvements
+- Real-time sensor streaming.
+- Notifications and alerts.
+- Multi-user authentication.
+- Mobile-friendly interface.
+
+## Usage
+- Clone the repo.
+- Install dependencies listed in `requirements.txt`.
+- Run the app using `streamlit run app.py` or backend server commands.
+
+## Dataset
+- Large image datasets not uploaded here due to size limits.
+- Use Kaggle or Mendeley datasets:
+  - [New Plant Diseases Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)
+  - [Black Gram Plant Leaf Disease Dataset](https://data.mendeley.com/datasets/zfcv9fmrgv/3)
+
+## License
+Specify license here.
+
+---
+
+## Contact
+For questions or collaboration, contact: your-email@example.com
